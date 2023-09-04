@@ -1,7 +1,58 @@
 
+body {
+    background-image: url('img/fondo\ inicio.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header aside img{
+    height: 100%;
+}
+
+
+.logo span{
+    color: rgb(4, 79, 114);
+    box-shadow: 0px 1px 10px white
+    
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+
 .navbar {
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc; 
+}
+
+
+.fixed-navbar {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    transition: top 0.3s;
 }
 
 .container {
@@ -15,7 +66,6 @@
     margin: 20px auto; /* Agrega margen superior e inferior para separar del navbar y centrar */
 }
 
-/* Cards */
 .card-container {
     display: flex;
     justify-content: center;
@@ -29,16 +79,11 @@
     width: 300px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; /* Agregamos la transición aquí */
 }
 
-.card img {
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
-}
-
-.card img:hover {
-    transform: scale(1.1);
+.card:hover {
+    transform: scale(1.1); /* Escala la tarjeta al 110% en hover */
 }
 
 .card h2 {
@@ -53,21 +98,5 @@
 .card p {
     font-size: 14px;
 }
-header{
-    height: 80px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header aside img{
-    height: 100%;
-}
-.logo span{
-    color: rgb(4, 79, 114);
-    box-shadow: 0px 1px 10px white
-    
-}
+
 
