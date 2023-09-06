@@ -82,4 +82,22 @@ header aside img{
     font-size: 14px;
 }
 
+.mas-contenido {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
 
+.more-info {
+    background-color: #4A5152;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.borrar{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
