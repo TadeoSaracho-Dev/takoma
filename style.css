@@ -33,7 +33,7 @@ header aside img{
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     z-index: 1000;
     transition: top 0.3s;
 }
@@ -47,7 +47,7 @@ header aside img{
 
 .fixed-navbar {
     position: fixed;
-    top: 80px;
+    top: 68px;
     left: 0;
     right: 0;
     background-color: white;
