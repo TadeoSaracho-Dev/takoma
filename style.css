@@ -28,15 +28,6 @@ header aside img{
     
 }
 
-.fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    z-index: 1000;
-    transition: top 0.3s;
-}
 
 
 .navbar {
@@ -45,15 +36,7 @@ header aside img{
 }
 
 
-.fixed-navbar {
-    position: fixed;
-    top: 80px;
-    left: 0;
-    right: 0;
-    background-color: white;
-    z-index: 1000;
-    transition: top 0.3s;
-}
+
 
 .container {
     text-align: center;
