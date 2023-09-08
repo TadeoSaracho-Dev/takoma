@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('img/fondo\ inicio.jpg'); 
+    background-image: url('C:\Users\Usuario\Desktop\clases coder house\takoma\img\fondo inicio.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,7 +47,7 @@ header aside img{
 
 .fixed-navbar {
     position: fixed;
-    top: 768px;
+    top: 78px;
     left: 0;
     right: 0;
     background-color: white;
